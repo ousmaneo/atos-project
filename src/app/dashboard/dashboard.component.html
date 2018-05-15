@@ -1,7 +1,10 @@
 <div class="container mt-2">
   <div class="card card-block">
 <app-metric class="col-sm-6"
->
+[used]="cpu.used"
+[available]="cpu.available"
+[title]="'CPU'"
+[description]="'utilization of CPU cores'">
 </app-metric>
   </div>
 </div>
